@@ -4,15 +4,15 @@ A simple tool to preserve your browsing history. Takes your OneTab exports and s
 
 ## What it does
 
-- Transforms your tab history chaos into organized knowledge.
-- Intelligently parses necessary components for easy searching, tagging. 
-- Builds a permanent, queryable archive that you can take anywhere with you. 
-- Stores timestamps for visualizing your browsing journey over time.
+- Transforms your tab chaos into organized knowledge.
+- Intelligently parses necessary pieces for easy searching.
+- Builds a permanent, queryable archive that you can carry everywhere.
+- Captures timestamps for visualizing the internet journey over time.
 
 ## How to use
 
 1. Export your tabs from OneTab as a text file.
-2. Rename it to `links.txt`.
+2. Rename it to `links.txt` or whatever.
 3. Run the script: `python archiver.py`.
 4. Your links are now preserved in `web-archive.db`.
 
@@ -33,3 +33,9 @@ A database with your links organized by:
 - Tags (empty for now, ready for future features)
 
 Your digital wanderings, catalogued and preserved.
+
+## Future Features
+
+Auto-monitoring, smart clustering by time/domain, and lightweight ML tagging - all running locally.
+
+*Built with minimal dependencies - your archive stays simple and portable.*
